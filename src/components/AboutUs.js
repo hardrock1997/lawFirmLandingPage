@@ -15,7 +15,7 @@ function AboutUs() {
             </header>
             <section className={styles.teamWrapper1}>
                 <div className={styles.mem}>
-                    <img src={mem1} alt='mem1'/>
+                    <img src={mem1} alt='mem1' loading="lazy"/>
                     <div className={styles.textWrapper}>
                         <p>Daniel Def</p>
                         <p>301 Cases</p>
@@ -23,7 +23,7 @@ function AboutUs() {
                 </div>
                 <div className={styles.mem1}>
                     <div className={styles.mem} >
-                        <img src={mem2} alt='mem1'/>
+                        <img src={mem2} alt='mem1' loading="lazy"/>
                         <div className={styles.textWrapper1}>
                         <p>Sanfole</p>
                         <p>850 Cases</p>
@@ -31,7 +31,7 @@ function AboutUs() {
                     </div>
                 </div>
                 <div className={styles.mem}>
-                    <img src={mem3} alt='mem1'/>
+                    <img src={mem3} alt='mem1' loading="lazy"/>
                     <div className={styles.textWrapper}>
                         <p>Cesforila</p>
                         <p>470 Cases</p>
@@ -40,21 +40,21 @@ function AboutUs() {
                 </section>
                 <section className={styles.teamWrapper2}>
                 <div className={styles.mem}>
-                    <img src={mem4} alt='mem1'/>
+                    <img src={mem4} alt='mem1' loading="lazy"/>
                     <div className={styles.textWrapper}>
                         <p>Colleen</p>
                         <p>180 Cases</p>
                     </div>
                 </div>
                 <div className={styles.mem}>
-                    <img src={mem5} alt='mem1'/>
+                    <img src={mem5} alt='mem1' loading="lazy"/>
                     <div className={styles.textWrapper}>
                         <p>Haldone</p>
                         <p>212 Cases</p>
                     </div>
                 </div>
                 <div className={styles.mem}>
-                    <img src={mem6} alt='mem1'/>
+                    <img src={mem6} alt='mem1' loading="lazy"/>
                     <div className={styles.textWrapper}>
                         <p>Nik Jeo</p>
                         <p>350 Cases</p>
