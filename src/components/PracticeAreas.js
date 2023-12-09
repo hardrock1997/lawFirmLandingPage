@@ -14,12 +14,30 @@ function PracticeAreas() {
                 <img src={aop} alt='aop'/>
            </header>
            <section className={styles.wrapper}>
-                <img src={bl} alt='aop' loading="lazy"/>
-                <img src={pl} alt='aop' loading="lazy"/>
-                <img src={rel} alt='aop'loading="lazy"/>
-                <img src={bl2} alt='aop'loading="lazy"/>
-                <img src={ld} alt='aop'loading="lazy"/>
-                <img src={ea} alt='aop'loading="lazy"/>
+                <div className={styles.imageWrapper}>
+                    <img src={bl} alt='aop' loading="lazy"/>
+                    <h2 className={styles.bl}>BUSINESS LAW</h2>
+                </div>
+                <div className={styles.imageWrapper}>
+                    <img src={pl} alt='aop' loading="lazy"/>
+                    <h2 className={styles.pl}>Partnership LAW</h2>
+                </div>
+                <div className={styles.imageWrapper}>
+                    <img src={rel} alt='aop'loading="lazy"/>
+                    <h2 className={styles.rel}>REAL ESTATE LAW</h2>
+                </div>
+                <div className={styles.imageWrapper}>
+                    <img src={bl2} alt='aop'loading="lazy"/>
+                    <h2 className={styles.bl2}>BUSINESS LAW</h2>
+                </div>
+                <div className={styles.imageWrapper}>
+                    <img src={ld} alt='aop'loading="lazy"/>
+                    <h2 className={styles.ld}>LANLORD DISPUTES</h2>
+                </div>
+                <div className={styles.imageWrapper}>
+                    <img src={ea} alt='aop'loading="lazy"/>
+                    <h2 className={styles.ea}>ELDER ABUSE</h2>
+                </div>
            </section>
         </>
     )

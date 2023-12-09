@@ -10,3 +10,37 @@
     gap: 70px;
     justify-content: center;
 }
+.bl {
+    position: absolute;
+    bottom: 45px;
+    right: 290px;
+    
+}
+.pl {
+    position: absolute;
+    bottom: 35px;
+    right: 80px;
+}
+.rel {
+    position: absolute;
+    bottom: 55px;
+    left: 80px;
+}
+.bl2 {
+    position: absolute;
+    bottom: 40px;
+    left: 250px;
+}
+.ld {
+    position: absolute;
+    bottom: 40px;
+    left: 280px;
+}
+.ea {
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+}
+.imageWrapper {
+    position: relative;
+}
