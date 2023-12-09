@@ -1,15 +1,17 @@
 // import styles from '../components/Main.module.css';
 import Header from './Header';
-import MainBody from '../components/MainBody.js'
+import MainBody from '../components/MainBody.js';
+import Home from './Home.js';
 
 function Main() {
     return (
         <>
         <header>
-            <Header/>
+            {/* <Header/>/ */}
         </header>
         <section>
-            <MainBody/>
+            {/* <MainBody/> */}
+            <Home/>
         </section>
         </>
     )
