@@ -2,16 +2,18 @@
 import Header from './Header';
 import MainBody from '../components/MainBody.js';
 import Home from './Home.js';
+import PracticeAreas from './PracticeAreas.js';
 
 function Main() {
     return (
         <>
         <header>
-            {/* <Header/>/ */}
+            <Header/>/
         </header>
         <section>
-            {/* <MainBody/> */}
+            <MainBody/>
             <Home/>
+            <PracticeAreas/>
         </section>
         </>
     )

@@ -17,9 +17,9 @@ function Home() {
             <img src={whychooseus} alt='whychooseus'/>
         </section>
         <section className={styles.homecardsWrapper}>
-            <img src={homecard1} alt='homecard1' width={359} height={377}/>
-            <img src={homecard2} alt='homecard2' width={359} height={377}/>
-            <img src={homecard3} alt='homecard3' width={359} height={377}/>
+            <img src={homecard1} alt='homecard1' width={359} height={377} loading="lazy"/>
+            <img src={homecard2} alt='homecard2' width={359} height={377} loading="lazy"/>
+            <img src={homecard3} alt='homecard3' width={359} height={377} loading="lazy"/>
         </section>
         </>
     )
