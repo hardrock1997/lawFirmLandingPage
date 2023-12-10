@@ -1,4 +1,4 @@
-/* .headerWrapper {
+.headerWrapper {
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -43,4 +43,4 @@
     justify-content: space-evenly;
     gap: 240px;
     margin-top: 100px;
-} */
+}
