@@ -1,0 +1,22 @@
+.accordionWrapper {
+    width: 550px;
+    background-color: var(--black-color)!important;
+    color: var(--white-color) !important;
+    margin-top: 5px;
+}
+
+.accordionText {
+    color: var(--white-color);
+}
+.iconWrapper {
+    color: var(--yellowish-color);
+    border-radius: 50%;
+    background-color: var(--yellowish-color);
+    width: 30px;
+}
+.icon {
+    color: var(--black-color);
+    position: relative;
+    top: 3px;
+    left: 3px;
+}

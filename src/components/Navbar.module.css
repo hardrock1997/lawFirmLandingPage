@@ -1,0 +1,7 @@
+.routesWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 431px;
+    height: 26px;
+    margin-top: 63px
+}

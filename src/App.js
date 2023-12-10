@@ -13,6 +13,7 @@ function App() {
         <Header/>
       </header>
       <Routes>
+            <Route path='*' element={<h1>Not found</h1>}/>
             <Route path='/' element={<Main/>}/>
             <Route path='/home' element={<Home/>}/>
             <Route path='/practiceareas' element={<PracticeAreas/>}/>

@@ -6,6 +6,7 @@ import mem3 from '../assets/Ellipse 3.png';
 import mem4 from '../assets/Ellipse 4.png';
 import mem5 from '../assets/Ellipse 5.png';
 import mem6 from '../assets/Ellipse 6.png';
+import FAQ from '../components/FAQ.js';
 
 function AboutUs() {
     return (
@@ -60,6 +61,9 @@ function AboutUs() {
                         <p>350 Cases</p>
                     </div>
                 </div>
+            </section>
+            <section>
+                <FAQ/>
             </section>
         </>
     )
