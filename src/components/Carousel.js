@@ -1,4 +1,3 @@
-import Card from "./Card";
 import styles from '../components/Carousel.module.css';
 import {Swiper,SwiperSlide,useSwiper} from 'swiper/react';
 import {Navigation} from 'swiper/modules';
