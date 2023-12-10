@@ -44,3 +44,11 @@
 .imageWrapper {
     position: relative;
 }
+.mainWrapper {
+    margin-left: 210px;
+}
+.textWrapper {
+    margin-top: 20px;
+    position: relative;
+    left: 12px;
+}

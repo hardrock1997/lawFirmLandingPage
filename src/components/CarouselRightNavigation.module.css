@@ -1,0 +1,7 @@
+.rightNavigation {
+    cursor: pointer;
+    position: absolute;
+    bottom: 80%;
+    left: 80%;
+    z-index: 10;
+}

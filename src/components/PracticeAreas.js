@@ -6,8 +6,14 @@ import bl2 from '../assets/BL2.png';
 import ld from '../assets/LD.png';
 import ea from '../assets/EA.png';
 import aop from '../assets/AOP.png';
+import Carousel from '../components/Carousel.js';
+import Card from './Card.js';
+import getClientsData from '../components/utils/getClientsData.js';
+import CarouselRightNavigation from './CarouselRightNavigation.js';
+import CarouselLeftNavigation from './CarouselLeftNavigation.js';
 
 function PracticeAreas() {
+    const clients = getClientsData();
     return (
         <>
            <header className={styles.header}>
@@ -39,6 +45,15 @@ function PracticeAreas() {
                     <h2 className={styles.ea}>ELDER ABUSE</h2>
                 </div>
            </section>
+           <footer className={styles.mainWrapper}>
+                <div className={styles.textWrapper}>
+                <h1>What says our</h1>
+                <h1>happy Clients</h1>
+                </div>
+                <div>
+                    <Carousel data={clients} component={(clients)=><Card data={clients}/>} component2={()=><CarouselLeftNavigation/>} component3={()=><CarouselRightNavigation/>}/>
+                </div>
+           </footer>
         </>
     )
 }
