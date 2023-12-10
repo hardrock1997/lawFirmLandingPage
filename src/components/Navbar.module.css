@@ -3,5 +3,10 @@
     justify-content: space-between;
     width: 431px;
     height: 26px;
-    margin-top: 63px
+    margin-top: 63px;
+    gap: 15px ;
+}
+.link {
+    color: var(--white-color);
+    text-decoration:none;
 }

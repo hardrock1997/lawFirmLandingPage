@@ -16,7 +16,8 @@ code {
   --black-color: #111111;
   --white-color: #ffffff;
   --yellowish-color:#E3B748;
-  
+  --greyish-color:#474747;
+  --dark-color:#171717;
 }
 *,
 *::before,

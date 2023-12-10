@@ -1,0 +1,27 @@
+.wrapper {
+    background-color: var(--dark-color);
+    width: 1440px;
+    height: 367px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mainWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.socialmediaimages {
+    margin-top: 62px;
+}
+.logo {
+    margin-top: 70px;
+}
+.footerlastimage {
+    position: relative;
+    bottom: 100px;
+}

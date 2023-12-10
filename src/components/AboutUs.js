@@ -7,6 +7,7 @@ import mem4 from '../assets/Ellipse 4.png';
 import mem5 from '../assets/Ellipse 5.png';
 import mem6 from '../assets/Ellipse 6.png';
 import FAQ from '../components/FAQ.js';
+import AboutUsFooter from './AboutUsFooter.js';
 
 function AboutUs() {
     return (
@@ -65,6 +66,9 @@ function AboutUs() {
             <section>
                 <FAQ/>
             </section>
+            <footer>
+                <AboutUsFooter/>
+            </footer>
         </>
     )
 }

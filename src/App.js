@@ -5,6 +5,7 @@ import {Route,Routes} from 'react-router-dom';
 import Home from './components/Home';
 import PracticeAreas from './components/PracticeAreas';
 import AboutUs from './components/AboutUs';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
             <Route path='/practiceareas' element={<PracticeAreas/>}/>
             <Route path='/aboutus' element={<AboutUs/>}/>
       </Routes>
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 }
